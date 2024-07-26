@@ -1,0 +1,205 @@
+2024-07-24 14:32:20,365 - INFO - Conectado ao Ganache
+2024-07-24 14:32:20,379 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-24 14:32:20,380 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-24 14:32:39,961 - INFO - Usuário registrado: teste1, Endereço: 0x589a13e2E6bf4152527AC6041E462AD0111d92c0
+2024-07-24 14:32:39,961 - INFO - 127.0.0.1 - - [24/Jul/2024 14:32:39] "POST /register HTTP/1.1" 200 -
+2024-07-24 14:32:48,733 - INFO - Transação feita: {'address': '0x589a13e2E6bf4152527AC6041E462AD0111d92c0', 'quantity': '200', 'description': 'km'}, Hash: 0x0f6ec91a656f9ba93d002cd59acc339d02ec99e7120e907ab82a373eb5f46dcc
+2024-07-24 14:32:48,734 - INFO - 127.0.0.1 - - [24/Jul/2024 14:32:48] "POST /transact HTTP/1.1" 200 -
+2024-07-25 13:10:52,082 - INFO - Conectado ao Ganache
+2024-07-25 13:10:52,120 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-25 13:10:52,120 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-25 13:12:32,374 - INFO - 127.0.0.1 - - [25/Jul/2024 13:12:32] "GET /get_users HTTP/1.1" 200 -
+2024-07-25 13:12:34,799 - ERROR - Erro ao obter detalhes do usuário gui: invalid literal for int() with base 10: '0xf727e15ab983f1845f35a3938d6ac1e33dc993f4626c3ffcdfe5739ba71f051f\n'
+2024-07-25 13:12:34,799 - INFO - 127.0.0.1 - - [25/Jul/2024 13:12:34] "[35m[1mGET /get_user_details/gui HTTP/1.1[0m" 500 -
+2024-07-25 13:12:38,066 - ERROR - Erro ao obter detalhes do usuário teste1: invalid literal for int() with base 10: '0x0f6ec91a656f9ba93d002cd59acc339d02ec99e7120e907ab82a373eb5f46dcc\n'
+2024-07-25 13:12:38,066 - INFO - 127.0.0.1 - - [25/Jul/2024 13:12:38] "[35m[1mGET /get_user_details/teste1 HTTP/1.1[0m" 500 -
+2024-07-25 13:12:57,707 - INFO - 127.0.0.1 - - [25/Jul/2024 13:12:57] "GET /get_users HTTP/1.1" 200 -
+2024-07-25 13:13:13,435 - INFO - Login bem-sucedido: gui, Endereço: 0x872618CBa408e3cE6b19Bb45996Fc6B4b148B077
+2024-07-25 13:13:13,435 - INFO - 127.0.0.1 - - [25/Jul/2024 13:13:13] "POST /login HTTP/1.1" 200 -
+2024-07-25 13:13:23,557 - INFO - Transação feita: {'address': '0x872618CBa408e3cE6b19Bb45996Fc6B4b148B077', 'quantity': '200aa', 'description': 'aa'}, Hash: 0x824a90d41ed802dd4cd18f81f5467e2ce7152aed5de999c29a891b4e13a7bf2a
+2024-07-25 13:13:23,557 - INFO - 127.0.0.1 - - [25/Jul/2024 13:13:23] "POST /transact HTTP/1.1" 200 -
+2024-07-25 13:13:27,546 - INFO - 127.0.0.1 - - [25/Jul/2024 13:13:27] "GET /get_users HTTP/1.1" 200 -
+2024-07-25 13:13:29,168 - ERROR - Erro ao obter detalhes do usuário gui: invalid literal for int() with base 10: '0xf727e15ab983f1845f35a3938d6ac1e33dc993f4626c3ffcdfe5739ba71f051f\n'
+2024-07-25 13:13:29,168 - INFO - 127.0.0.1 - - [25/Jul/2024 13:13:29] "[35m[1mGET /get_user_details/gui HTTP/1.1[0m" 500 -
+2024-07-25 13:16:37,627 - INFO - Conectado ao Ganache
+2024-07-25 13:16:37,627 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-25 13:16:37,627 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-25 13:16:46,453 - INFO - Usuários carregados
+2024-07-25 13:16:46,453 - INFO - 127.0.0.1 - - [25/Jul/2024 13:16:46] "GET /get_users HTTP/1.1" 200 -
+2024-07-25 13:16:47,994 - INFO - Detalhes do usuário carregados: {'username': 'gui', 'address': '0x872618CBa408e3cE6b19Bb45996Fc6B4b148B077', 'transactions': ['Transação: 0xf727e15ab983f1845f35a3938d6ac1e33dc993f4626c3ffcdfe5739ba71f051f\n', 'Transação: 0x0e098e11918ce54187c6dab1bc49d72cb5b3782304b53e064e6d9d1a0993550f\n', 'Transação: 0x824a90d41ed802dd4cd18f81f5467e2ce7152aed5de999c29a891b4e13a7bf2a\n']}
+2024-07-25 13:16:47,994 - INFO - 127.0.0.1 - - [25/Jul/2024 13:16:47] "GET /get_user_details/gui HTTP/1.1" 200 -
+2024-07-25 13:17:05,270 - INFO - Detalhes do usuário carregados: {'username': 'teste1', 'address': '0x589a13e2E6bf4152527AC6041E462AD0111d92c0', 'transactions': ['Transação: 0x0f6ec91a656f9ba93d002cd59acc339d02ec99e7120e907ab82a373eb5f46dcc\n']}
+2024-07-25 13:17:05,270 - INFO - 127.0.0.1 - - [25/Jul/2024 13:17:05] "GET /get_user_details/teste1 HTTP/1.1" 200 -
+2024-07-25 15:27:41,237 - ERROR - Não foi possível conectar ao Ganache
+2024-07-25 15:27:41,291 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-25 15:27:41,291 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-25 15:28:19,745 - INFO - Conectado ao Ganache
+2024-07-25 15:28:19,745 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-25 15:28:19,745 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-25 15:28:24,660 - INFO - Usuários carregados
+2024-07-25 15:28:24,661 - INFO - 127.0.0.1 - - [25/Jul/2024 15:28:24] "GET /get_users HTTP/1.1" 200 -
+2024-07-25 15:28:26,450 - INFO - Detalhes do usuário carregados: {'username': 'gui', 'address': '0x872618CBa408e3cE6b19Bb45996Fc6B4b148B077', 'transactions': ['Transação: 0xf727e15ab983f1845f35a3938d6ac1e33dc993f4626c3ffcdfe5739ba71f051f\n', 'Transação: 0x0e098e11918ce54187c6dab1bc49d72cb5b3782304b53e064e6d9d1a0993550f\n', 'Transação: 0x824a90d41ed802dd4cd18f81f5467e2ce7152aed5de999c29a891b4e13a7bf2a\n']}
+2024-07-25 15:28:26,451 - INFO - 127.0.0.1 - - [25/Jul/2024 15:28:26] "GET /get_user_details/gui HTTP/1.1" 200 -
+2024-07-25 15:28:57,046 - INFO - Login bem-sucedido: gui, Endereço: 0x872618CBa408e3cE6b19Bb45996Fc6B4b148B077
+2024-07-25 15:28:57,046 - INFO - 127.0.0.1 - - [25/Jul/2024 15:28:57] "POST /login HTTP/1.1" 200 -
+2024-07-25 15:29:03,225 - INFO - Transação feita: {'address': '0x872618CBa408e3cE6b19Bb45996Fc6B4b148B077', 'quantity': '250', 'description': 'teste'}, Hash: 0x097838835bd278ae6d5d92b4c539453c09786486766ba497d7873d3eec4bc84f
+2024-07-25 15:29:03,225 - INFO - 127.0.0.1 - - [25/Jul/2024 15:29:03] "POST /transact HTTP/1.1" 200 -
+2024-07-25 15:29:19,051 - INFO - Usuários carregados
+2024-07-25 15:29:19,052 - INFO - 127.0.0.1 - - [25/Jul/2024 15:29:19] "GET /get_users HTTP/1.1" 200 -
+2024-07-25 15:29:19,677 - INFO - Usuários carregados
+2024-07-25 15:29:19,677 - INFO - 127.0.0.1 - - [25/Jul/2024 15:29:19] "GET /get_users HTTP/1.1" 200 -
+2024-07-25 15:29:20,091 - INFO - Usuários carregados
+2024-07-25 15:29:20,091 - INFO - 127.0.0.1 - - [25/Jul/2024 15:29:20] "GET /get_users HTTP/1.1" 200 -
+2024-07-25 15:29:21,003 - INFO - Detalhes do usuário carregados: {'username': 'gui', 'address': '0x872618CBa408e3cE6b19Bb45996Fc6B4b148B077', 'transactions': ['Transação: 0xf727e15ab983f1845f35a3938d6ac1e33dc993f4626c3ffcdfe5739ba71f051f\n', 'Transação: 0x0e098e11918ce54187c6dab1bc49d72cb5b3782304b53e064e6d9d1a0993550f\n', 'Transação: 0x824a90d41ed802dd4cd18f81f5467e2ce7152aed5de999c29a891b4e13a7bf2a\n', 'Transação: 0x097838835bd278ae6d5d92b4c539453c09786486766ba497d7873d3eec4bc84f\n']}
+2024-07-25 15:29:21,004 - INFO - 127.0.0.1 - - [25/Jul/2024 15:29:21] "GET /get_user_details/gui HTTP/1.1" 200 -
+2024-07-25 15:29:53,322 - ERROR - Erro ao recuperar dados: when sending a str, it must be a hex string. Got: '0x097838835bd278ae6d5d92b4c539453c09786486766ba497d7873d3eec4bc84f\\n"'
+2024-07-25 15:29:53,322 - INFO - 127.0.0.1 - - [25/Jul/2024 15:29:53] "[35m[1mPOST /get_data HTTP/1.1[0m" 500 -
+2024-07-25 15:30:00,949 - INFO - Dados recuperados: Quantity: 250 kWh, Price: 0.1 Ether, Description: teste
+2024-07-25 15:30:00,949 - INFO - 127.0.0.1 - - [25/Jul/2024 15:30:00] "POST /get_data HTTP/1.1" 200 -
+2024-07-25 15:30:10,769 - ERROR - Erro ao recuperar dados: Transaction with hash: '0x824a90d41ed802dd4cd18f81f5467e2ce7152aed5de999c29a891b4e13a7bf2a' not found.
+2024-07-25 15:30:10,769 - INFO - 127.0.0.1 - - [25/Jul/2024 15:30:10] "[35m[1mPOST /get_data HTTP/1.1[0m" 500 -
+2024-07-25 15:30:17,638 - ERROR - Erro ao recuperar dados: Transaction with hash: '0x824a90d41ed802dd4cd18f81f5467e2ce7152aed5de999c29a891b4e13a7bf2a' not found.
+2024-07-25 15:30:17,638 - INFO - 127.0.0.1 - - [25/Jul/2024 15:30:17] "[35m[1mPOST /get_data HTTP/1.1[0m" 500 -
+2024-07-25 15:33:02,681 - INFO - Conectado ao Ganache
+2024-07-25 15:33:02,681 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-25 15:33:02,681 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-25 15:33:13,093 - INFO - Usuários carregados
+2024-07-25 15:33:13,093 - INFO - 127.0.0.1 - - [25/Jul/2024 15:33:13] "GET /get_users HTTP/1.1" 200 -
+2024-07-25 15:33:14,366 - INFO - Detalhes do usuário carregados: {'username': 'gui', 'address': '0x872618CBa408e3cE6b19Bb45996Fc6B4b148B077', 'transactions': ['Transação: 0xf727e15ab983f1845f35a3938d6ac1e33dc993f4626c3ffcdfe5739ba71f051f', 'Transação: 0x0e098e11918ce54187c6dab1bc49d72cb5b3782304b53e064e6d9d1a0993550f', 'Transação: 0x824a90d41ed802dd4cd18f81f5467e2ce7152aed5de999c29a891b4e13a7bf2a', 'Transação: 0x097838835bd278ae6d5d92b4c539453c09786486766ba497d7873d3eec4bc84f'], 'total_kwh': 0.0}
+2024-07-25 15:33:14,366 - INFO - 127.0.0.1 - - [25/Jul/2024 15:33:14] "GET /get_user_details/gui HTTP/1.1" 200 -
+2024-07-25 15:33:17,576 - INFO - Detalhes do usuário carregados: {'username': 'teste1', 'address': '0x589a13e2E6bf4152527AC6041E462AD0111d92c0', 'transactions': ['Transação: 0x0f6ec91a656f9ba93d002cd59acc339d02ec99e7120e907ab82a373eb5f46dcc'], 'total_kwh': 0.0}
+2024-07-25 15:33:17,576 - INFO - 127.0.0.1 - - [25/Jul/2024 15:33:17] "GET /get_user_details/teste1 HTTP/1.1" 200 -
+2024-07-25 15:33:19,623 - INFO - Detalhes do usuário carregados: {'username': 'gui', 'address': '0x872618CBa408e3cE6b19Bb45996Fc6B4b148B077', 'transactions': ['Transação: 0xf727e15ab983f1845f35a3938d6ac1e33dc993f4626c3ffcdfe5739ba71f051f', 'Transação: 0x0e098e11918ce54187c6dab1bc49d72cb5b3782304b53e064e6d9d1a0993550f', 'Transação: 0x824a90d41ed802dd4cd18f81f5467e2ce7152aed5de999c29a891b4e13a7bf2a', 'Transação: 0x097838835bd278ae6d5d92b4c539453c09786486766ba497d7873d3eec4bc84f'], 'total_kwh': 0.0}
+2024-07-25 15:33:19,623 - INFO - 127.0.0.1 - - [25/Jul/2024 15:33:19] "GET /get_user_details/gui HTTP/1.1" 200 -
+2024-07-25 15:35:58,104 - INFO - Conectado ao Ganache
+2024-07-25 15:35:58,114 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-25 15:35:58,114 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-25 15:36:01,811 - INFO - Usuários carregados
+2024-07-25 15:36:01,811 - INFO - 127.0.0.1 - - [25/Jul/2024 15:36:01] "GET /get_users HTTP/1.1" 200 -
+2024-07-25 15:36:03,170 - INFO - Detalhes do usuário carregados: {'username': 'gui', 'address': '0x872618CBa408e3cE6b19Bb45996Fc6B4b148B077', 'transactions': ['Transação: 0xf727e15ab983f1845f35a3938d6ac1e33dc993f4626c3ffcdfe5739ba71f051f', 'Transação: 0x0e098e11918ce54187c6dab1bc49d72cb5b3782304b53e064e6d9d1a0993550f', 'Transação: 0x824a90d41ed802dd4cd18f81f5467e2ce7152aed5de999c29a891b4e13a7bf2a', 'Transação: 0x097838835bd278ae6d5d92b4c539453c09786486766ba497d7873d3eec4bc84f'], 'total_kwh': 0.0}
+2024-07-25 15:36:03,171 - INFO - 127.0.0.1 - - [25/Jul/2024 15:36:03] "GET /get_user_details/gui HTTP/1.1" 200 -
+2024-07-25 15:36:11,084 - INFO - Transação feita: {'address': '0x872618CBa408e3cE6b19Bb45996Fc6B4b148B077', 'quantity': '250', 'description': 'teste'}, Hash: 0x04b659406b079daaa36edad2e74d393e155f5f3e5a1cb3766547248cc3eb2185
+2024-07-25 15:36:11,084 - INFO - 127.0.0.1 - - [25/Jul/2024 15:36:11] "POST /transact HTTP/1.1" 200 -
+2024-07-25 15:36:14,120 - INFO - Usuários carregados
+2024-07-25 15:36:14,120 - INFO - 127.0.0.1 - - [25/Jul/2024 15:36:14] "GET /get_users HTTP/1.1" 200 -
+2024-07-25 15:36:16,113 - ERROR - Erro ao converter quantidade: 0x04b659406b079daaa36edad2e74d393e155f5f3e5a1cb3766547248cc3eb2185
+2024-07-25 15:36:16,113 - INFO - Detalhes do usuário carregados: {'username': 'gui', 'address': '0x872618CBa408e3cE6b19Bb45996Fc6B4b148B077', 'transactions': ['Transação: 0xf727e15ab983f1845f35a3938d6ac1e33dc993f4626c3ffcdfe5739ba71f051f', 'Transação: 0x0e098e11918ce54187c6dab1bc49d72cb5b3782304b53e064e6d9d1a0993550f', 'Transação: 0x824a90d41ed802dd4cd18f81f5467e2ce7152aed5de999c29a891b4e13a7bf2a', 'Transação: 0x097838835bd278ae6d5d92b4c539453c09786486766ba497d7873d3eec4bc84f', 'Transação: 0x04b659406b079daaa36edad2e74d393e155f5f3e5a1cb3766547248cc3eb2185: Quantity: 250 kWh, Price: 0.1 Ether, Description: teste'], 'total_kwh': 0.0}
+2024-07-25 15:36:16,113 - INFO - 127.0.0.1 - - [25/Jul/2024 15:36:16] "GET /get_user_details/gui HTTP/1.1" 200 -
+2024-07-25 15:36:18,328 - ERROR - Erro ao converter quantidade: 0x04b659406b079daaa36edad2e74d393e155f5f3e5a1cb3766547248cc3eb2185
+2024-07-25 15:36:18,328 - INFO - Detalhes do usuário carregados: {'username': 'gui', 'address': '0x872618CBa408e3cE6b19Bb45996Fc6B4b148B077', 'transactions': ['Transação: 0xf727e15ab983f1845f35a3938d6ac1e33dc993f4626c3ffcdfe5739ba71f051f', 'Transação: 0x0e098e11918ce54187c6dab1bc49d72cb5b3782304b53e064e6d9d1a0993550f', 'Transação: 0x824a90d41ed802dd4cd18f81f5467e2ce7152aed5de999c29a891b4e13a7bf2a', 'Transação: 0x097838835bd278ae6d5d92b4c539453c09786486766ba497d7873d3eec4bc84f', 'Transação: 0x04b659406b079daaa36edad2e74d393e155f5f3e5a1cb3766547248cc3eb2185: Quantity: 250 kWh, Price: 0.1 Ether, Description: teste'], 'total_kwh': 0.0}
+2024-07-25 15:36:18,328 - INFO - 127.0.0.1 - - [25/Jul/2024 15:36:18] "GET /get_user_details/gui HTTP/1.1" 200 -
+2024-07-25 15:36:22,829 - ERROR - Erro ao converter quantidade: 0x04b659406b079daaa36edad2e74d393e155f5f3e5a1cb3766547248cc3eb2185
+2024-07-25 15:36:22,829 - INFO - Detalhes do usuário carregados: {'username': 'gui', 'address': '0x872618CBa408e3cE6b19Bb45996Fc6B4b148B077', 'transactions': ['Transação: 0xf727e15ab983f1845f35a3938d6ac1e33dc993f4626c3ffcdfe5739ba71f051f', 'Transação: 0x0e098e11918ce54187c6dab1bc49d72cb5b3782304b53e064e6d9d1a0993550f', 'Transação: 0x824a90d41ed802dd4cd18f81f5467e2ce7152aed5de999c29a891b4e13a7bf2a', 'Transação: 0x097838835bd278ae6d5d92b4c539453c09786486766ba497d7873d3eec4bc84f', 'Transação: 0x04b659406b079daaa36edad2e74d393e155f5f3e5a1cb3766547248cc3eb2185: Quantity: 250 kWh, Price: 0.1 Ether, Description: teste'], 'total_kwh': 0.0}
+2024-07-25 15:36:22,829 - INFO - 127.0.0.1 - - [25/Jul/2024 15:36:22] "GET /get_user_details/gui HTTP/1.1" 200 -
+2024-07-25 15:36:28,957 - INFO - Transação feita: {'address': '0x872618CBa408e3cE6b19Bb45996Fc6B4b148B077', 'quantity': '200', 'description': 'teste'}, Hash: 0x27f0cd138bb1d509a5267ec8876d486fb6d534e85ce359e705e9a865bd02f64d
+2024-07-25 15:36:28,957 - INFO - 127.0.0.1 - - [25/Jul/2024 15:36:28] "POST /transact HTTP/1.1" 200 -
+2024-07-25 15:36:31,162 - ERROR - Erro ao converter quantidade: 0x04b659406b079daaa36edad2e74d393e155f5f3e5a1cb3766547248cc3eb2185
+2024-07-25 15:36:31,163 - ERROR - Erro ao converter quantidade: 0x27f0cd138bb1d509a5267ec8876d486fb6d534e85ce359e705e9a865bd02f64d
+2024-07-25 15:36:31,163 - INFO - Detalhes do usuário carregados: {'username': 'gui', 'address': '0x872618CBa408e3cE6b19Bb45996Fc6B4b148B077', 'transactions': ['Transação: 0xf727e15ab983f1845f35a3938d6ac1e33dc993f4626c3ffcdfe5739ba71f051f', 'Transação: 0x0e098e11918ce54187c6dab1bc49d72cb5b3782304b53e064e6d9d1a0993550f', 'Transação: 0x824a90d41ed802dd4cd18f81f5467e2ce7152aed5de999c29a891b4e13a7bf2a', 'Transação: 0x097838835bd278ae6d5d92b4c539453c09786486766ba497d7873d3eec4bc84f', 'Transação: 0x04b659406b079daaa36edad2e74d393e155f5f3e5a1cb3766547248cc3eb2185: Quantity: 250 kWh, Price: 0.1 Ether, Description: teste', 'Transação: 0x27f0cd138bb1d509a5267ec8876d486fb6d534e85ce359e705e9a865bd02f64d: Quantity: 200 kWh, Price: 0.1 Ether, Description: teste'], 'total_kwh': 0.0}
+2024-07-25 15:36:31,163 - INFO - 127.0.0.1 - - [25/Jul/2024 15:36:31] "GET /get_user_details/gui HTTP/1.1" 200 -
+2024-07-25 15:36:32,354 - ERROR - Erro ao converter quantidade: 0x04b659406b079daaa36edad2e74d393e155f5f3e5a1cb3766547248cc3eb2185
+2024-07-25 15:36:32,354 - ERROR - Erro ao converter quantidade: 0x27f0cd138bb1d509a5267ec8876d486fb6d534e85ce359e705e9a865bd02f64d
+2024-07-25 15:36:32,354 - INFO - Detalhes do usuário carregados: {'username': 'gui', 'address': '0x872618CBa408e3cE6b19Bb45996Fc6B4b148B077', 'transactions': ['Transação: 0xf727e15ab983f1845f35a3938d6ac1e33dc993f4626c3ffcdfe5739ba71f051f', 'Transação: 0x0e098e11918ce54187c6dab1bc49d72cb5b3782304b53e064e6d9d1a0993550f', 'Transação: 0x824a90d41ed802dd4cd18f81f5467e2ce7152aed5de999c29a891b4e13a7bf2a', 'Transação: 0x097838835bd278ae6d5d92b4c539453c09786486766ba497d7873d3eec4bc84f', 'Transação: 0x04b659406b079daaa36edad2e74d393e155f5f3e5a1cb3766547248cc3eb2185: Quantity: 250 kWh, Price: 0.1 Ether, Description: teste', 'Transação: 0x27f0cd138bb1d509a5267ec8876d486fb6d534e85ce359e705e9a865bd02f64d: Quantity: 200 kWh, Price: 0.1 Ether, Description: teste'], 'total_kwh': 0.0}
+2024-07-25 15:36:32,354 - INFO - 127.0.0.1 - - [25/Jul/2024 15:36:32] "GET /get_user_details/gui HTTP/1.1" 200 -
+2024-07-25 15:36:46,557 - ERROR - Erro ao converter quantidade: 0x04b659406b079daaa36edad2e74d393e155f5f3e5a1cb3766547248cc3eb2185
+2024-07-25 15:36:46,557 - ERROR - Erro ao converter quantidade: 0x27f0cd138bb1d509a5267ec8876d486fb6d534e85ce359e705e9a865bd02f64d
+2024-07-25 15:36:46,557 - INFO - Detalhes do usuário carregados: {'username': 'gui', 'address': '0x872618CBa408e3cE6b19Bb45996Fc6B4b148B077', 'transactions': ['Transação: 0xf727e15ab983f1845f35a3938d6ac1e33dc993f4626c3ffcdfe5739ba71f051f', 'Transação: 0x0e098e11918ce54187c6dab1bc49d72cb5b3782304b53e064e6d9d1a0993550f', 'Transação: 0x824a90d41ed802dd4cd18f81f5467e2ce7152aed5de999c29a891b4e13a7bf2a', 'Transação: 0x097838835bd278ae6d5d92b4c539453c09786486766ba497d7873d3eec4bc84f', 'Transação: 0x04b659406b079daaa36edad2e74d393e155f5f3e5a1cb3766547248cc3eb2185: Quantity: 250 kWh, Price: 0.1 Ether, Description: teste', 'Transação: 0x27f0cd138bb1d509a5267ec8876d486fb6d534e85ce359e705e9a865bd02f64d: Quantity: 200 kWh, Price: 0.1 Ether, Description: teste'], 'total_kwh': 0.0}
+2024-07-25 15:36:46,557 - INFO - 127.0.0.1 - - [25/Jul/2024 15:36:46] "GET /get_user_details/gui HTTP/1.1" 200 -
+2024-07-25 15:36:47,057 - ERROR - Erro ao converter quantidade: 0x04b659406b079daaa36edad2e74d393e155f5f3e5a1cb3766547248cc3eb2185
+2024-07-25 15:36:47,057 - ERROR - Erro ao converter quantidade: 0x27f0cd138bb1d509a5267ec8876d486fb6d534e85ce359e705e9a865bd02f64d
+2024-07-25 15:36:47,057 - INFO - Detalhes do usuário carregados: {'username': 'gui', 'address': '0x872618CBa408e3cE6b19Bb45996Fc6B4b148B077', 'transactions': ['Transação: 0xf727e15ab983f1845f35a3938d6ac1e33dc993f4626c3ffcdfe5739ba71f051f', 'Transação: 0x0e098e11918ce54187c6dab1bc49d72cb5b3782304b53e064e6d9d1a0993550f', 'Transação: 0x824a90d41ed802dd4cd18f81f5467e2ce7152aed5de999c29a891b4e13a7bf2a', 'Transação: 0x097838835bd278ae6d5d92b4c539453c09786486766ba497d7873d3eec4bc84f', 'Transação: 0x04b659406b079daaa36edad2e74d393e155f5f3e5a1cb3766547248cc3eb2185: Quantity: 250 kWh, Price: 0.1 Ether, Description: teste', 'Transação: 0x27f0cd138bb1d509a5267ec8876d486fb6d534e85ce359e705e9a865bd02f64d: Quantity: 200 kWh, Price: 0.1 Ether, Description: teste'], 'total_kwh': 0.0}
+2024-07-25 15:36:47,057 - INFO - 127.0.0.1 - - [25/Jul/2024 15:36:47] "GET /get_user_details/gui HTTP/1.1" 200 -
+2024-07-25 15:37:55,564 - INFO - Usuário registrado: final, Endereço: 0x9F63708d8FbB2cbFaa9d8F3d39Dd1f67832bb11E
+2024-07-25 15:37:55,564 - INFO - 127.0.0.1 - - [25/Jul/2024 15:37:55] "POST /register HTTP/1.1" 200 -
+2024-07-25 15:37:58,697 - INFO - Usuários carregados
+2024-07-25 15:37:58,697 - INFO - 127.0.0.1 - - [25/Jul/2024 15:37:58] "GET /get_users HTTP/1.1" 200 -
+2024-07-25 15:38:02,863 - INFO - Transação feita: {'address': '0x9F63708d8FbB2cbFaa9d8F3d39Dd1f67832bb11E', 'quantity': '250', 'description': 'teste'}, Hash: 0xd234eed1b06a2d92fef01dc05e1ed61835da839dab530d60f816624a5bb07999
+2024-07-25 15:38:02,863 - INFO - 127.0.0.1 - - [25/Jul/2024 15:38:02] "POST /transact HTTP/1.1" 200 -
+2024-07-25 15:38:05,815 - INFO - Usuários carregados
+2024-07-25 15:38:05,815 - INFO - 127.0.0.1 - - [25/Jul/2024 15:38:05] "GET /get_users HTTP/1.1" 200 -
+2024-07-25 15:38:07,024 - ERROR - Erro ao converter quantidade: 0xd234eed1b06a2d92fef01dc05e1ed61835da839dab530d60f816624a5bb07999
+2024-07-25 15:38:07,025 - INFO - Detalhes do usuário carregados: {'username': 'final', 'address': '0x9F63708d8FbB2cbFaa9d8F3d39Dd1f67832bb11E', 'transactions': ['Transação: 0xd234eed1b06a2d92fef01dc05e1ed61835da839dab530d60f816624a5bb07999: Quantity: 250 kWh, Price: 0.1 Ether, Description: teste'], 'total_kwh': 0.0}
+2024-07-25 15:38:07,025 - INFO - 127.0.0.1 - - [25/Jul/2024 15:38:07] "GET /get_user_details/final HTTP/1.1" 200 -
+2024-07-25 15:38:12,108 - INFO - Transação feita: {'address': '0x9F63708d8FbB2cbFaa9d8F3d39Dd1f67832bb11E', 'quantity': '200', 'description': 'teste'}, Hash: 0x439660a6882d6a9aa6fefcdce729af76ba9a6807956de86315d7c11292dc783e
+2024-07-25 15:38:12,108 - INFO - 127.0.0.1 - - [25/Jul/2024 15:38:12] "POST /transact HTTP/1.1" 200 -
+2024-07-25 15:38:14,574 - ERROR - Erro ao converter quantidade: 0xd234eed1b06a2d92fef01dc05e1ed61835da839dab530d60f816624a5bb07999
+2024-07-25 15:38:14,574 - ERROR - Erro ao converter quantidade: 0x439660a6882d6a9aa6fefcdce729af76ba9a6807956de86315d7c11292dc783e
+2024-07-25 15:38:14,574 - INFO - Detalhes do usuário carregados: {'username': 'final', 'address': '0x9F63708d8FbB2cbFaa9d8F3d39Dd1f67832bb11E', 'transactions': ['Transação: 0xd234eed1b06a2d92fef01dc05e1ed61835da839dab530d60f816624a5bb07999: Quantity: 250 kWh, Price: 0.1 Ether, Description: teste', 'Transação: 0x439660a6882d6a9aa6fefcdce729af76ba9a6807956de86315d7c11292dc783e: Quantity: 200 kWh, Price: 0.1 Ether, Description: teste'], 'total_kwh': 0.0}
+2024-07-25 15:38:14,574 - INFO - 127.0.0.1 - - [25/Jul/2024 15:38:14] "GET /get_user_details/final HTTP/1.1" 200 -
+2024-07-25 15:40:17,990 - INFO - Conectado ao Ganache
+2024-07-25 15:40:18,006 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-25 15:40:18,006 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-25 15:40:22,221 - INFO - Usuários carregados
+2024-07-25 15:40:22,222 - INFO - 127.0.0.1 - - [25/Jul/2024 15:40:22] "GET /get_users HTTP/1.1" 200 -
+2024-07-25 15:40:23,403 - ERROR - Erro ao converter quantidade: 0xd234eed1b06a2d92fef01dc05e1ed61835da839dab530d60f816624a5bb07999
+2024-07-25 15:40:23,403 - ERROR - Erro ao converter quantidade: 0x439660a6882d6a9aa6fefcdce729af76ba9a6807956de86315d7c11292dc783e
+2024-07-25 15:40:23,403 - INFO - Detalhes do usuário carregados: {'username': 'final', 'address': '0x9F63708d8FbB2cbFaa9d8F3d39Dd1f67832bb11E', 'transactions': ['Transação: 0xd234eed1b06a2d92fef01dc05e1ed61835da839dab530d60f816624a5bb07999: Quantity: 250 kWh, Price: 0.1 Ether, Description: teste', 'Transação: 0x439660a6882d6a9aa6fefcdce729af76ba9a6807956de86315d7c11292dc783e: Quantity: 200 kWh, Price: 0.1 Ether, Description: teste'], 'total_kwh': 0.0}
+2024-07-25 15:40:23,403 - INFO - 127.0.0.1 - - [25/Jul/2024 15:40:23] "GET /get_user_details/final HTTP/1.1" 200 -
+2024-07-25 15:42:19,039 - INFO - Conectado ao Ganache
+2024-07-25 15:42:19,047 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-25 15:42:19,047 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-25 15:42:33,002 - INFO - Usuários carregados
+2024-07-25 15:42:33,002 - INFO - 127.0.0.1 - - [25/Jul/2024 15:42:33] "GET /get_users HTTP/1.1" 200 -
+2024-07-25 15:42:34,708 - ERROR - Erro ao converter quantidade: 0xd234eed1b06a2d92fef01dc05e1ed61835da839dab530d60f816624a5bb07999
+2024-07-25 15:42:34,709 - ERROR - Erro ao converter quantidade: 0x439660a6882d6a9aa6fefcdce729af76ba9a6807956de86315d7c11292dc783e
+2024-07-25 15:42:34,709 - INFO - Detalhes do usuário carregados: {'username': 'final', 'address': '0x9F63708d8FbB2cbFaa9d8F3d39Dd1f67832bb11E', 'transactions': ['Transação: 0xd234eed1b06a2d92fef01dc05e1ed61835da839dab530d60f816624a5bb07999: Quantity: 250 kWh, Price: 0.1 Ether, Description: teste', 'Transação: 0x439660a6882d6a9aa6fefcdce729af76ba9a6807956de86315d7c11292dc783e: Quantity: 200 kWh, Price: 0.1 Ether, Description: teste'], 'total_kwh': 0.0}
+2024-07-25 15:42:34,709 - INFO - 127.0.0.1 - - [25/Jul/2024 15:42:34] "GET /get_user_details/final HTTP/1.1" 200 -
+2024-07-25 15:42:41,783 - ERROR - Erro ao converter quantidade: 0xd234eed1b06a2d92fef01dc05e1ed61835da839dab530d60f816624a5bb07999
+2024-07-25 15:42:41,783 - ERROR - Erro ao converter quantidade: 0x439660a6882d6a9aa6fefcdce729af76ba9a6807956de86315d7c11292dc783e
+2024-07-25 15:42:41,798 - INFO - Detalhes do usuário carregados: {'username': 'final', 'address': '0x9F63708d8FbB2cbFaa9d8F3d39Dd1f67832bb11E', 'transactions': ['Transação: 0xd234eed1b06a2d92fef01dc05e1ed61835da839dab530d60f816624a5bb07999: Quantity: 250 kWh, Price: 0.1 Ether, Description: teste', 'Transação: 0x439660a6882d6a9aa6fefcdce729af76ba9a6807956de86315d7c11292dc783e: Quantity: 200 kWh, Price: 0.1 Ether, Description: teste'], 'total_kwh': 0.0}
+2024-07-25 15:42:41,798 - INFO - 127.0.0.1 - - [25/Jul/2024 15:42:41] "GET /get_user_details/final HTTP/1.1" 200 -
+2024-07-25 15:42:42,614 - ERROR - Erro ao converter quantidade: 0xd234eed1b06a2d92fef01dc05e1ed61835da839dab530d60f816624a5bb07999
+2024-07-25 15:42:42,614 - ERROR - Erro ao converter quantidade: 0x439660a6882d6a9aa6fefcdce729af76ba9a6807956de86315d7c11292dc783e
+2024-07-25 15:42:42,614 - INFO - Detalhes do usuário carregados: {'username': 'final', 'address': '0x9F63708d8FbB2cbFaa9d8F3d39Dd1f67832bb11E', 'transactions': ['Transação: 0xd234eed1b06a2d92fef01dc05e1ed61835da839dab530d60f816624a5bb07999: Quantity: 250 kWh, Price: 0.1 Ether, Description: teste', 'Transação: 0x439660a6882d6a9aa6fefcdce729af76ba9a6807956de86315d7c11292dc783e: Quantity: 200 kWh, Price: 0.1 Ether, Description: teste'], 'total_kwh': 0.0}
+2024-07-25 15:42:42,614 - INFO - 127.0.0.1 - - [25/Jul/2024 15:42:42] "GET /get_user_details/final HTTP/1.1" 200 -
+2024-07-25 15:45:31,521 - INFO - Conectado ao Ganache
+2024-07-25 15:45:31,522 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-25 15:45:31,522 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-25 15:45:34,317 - INFO - Usuários carregados
+2024-07-25 15:45:34,317 - INFO - 127.0.0.1 - - [25/Jul/2024 15:45:34] "GET /get_users HTTP/1.1" 200 -
+2024-07-25 15:45:35,850 - ERROR - Erro ao carregar detalhes do usuário: 'utf-8' codec can't decode byte 0xe7 in position 6: invalid continuation byte
+2024-07-25 15:45:35,850 - INFO - 127.0.0.1 - - [25/Jul/2024 15:45:35] "[35m[1mGET /get_user_details/final HTTP/1.1[0m" 500 -
+2024-07-25 15:45:40,016 - ERROR - Erro ao carregar detalhes do usuário: 'utf-8' codec can't decode byte 0xe7 in position 6: invalid continuation byte
+2024-07-25 15:45:40,016 - INFO - 127.0.0.1 - - [25/Jul/2024 15:45:40] "[35m[1mGET /get_user_details/final HTTP/1.1[0m" 500 -
+2024-07-25 15:45:51,209 - ERROR - Erro ao carregar detalhes do usuário: 'utf-8' codec can't decode byte 0xe7 in position 6: invalid continuation byte
+2024-07-25 15:45:51,209 - INFO - 127.0.0.1 - - [25/Jul/2024 15:45:51] "[35m[1mGET /get_user_details/final HTTP/1.1[0m" 500 -
+2024-07-25 15:45:53,221 - INFO - Usuários carregados
+2024-07-25 15:45:53,222 - INFO - 127.0.0.1 - - [25/Jul/2024 15:45:53] "GET /get_users HTTP/1.1" 200 -
+2024-07-25 15:45:55,021 - ERROR - Erro ao carregar detalhes do usuário: 'utf-8' codec can't decode byte 0xe7 in position 6: invalid continuation byte
+2024-07-25 15:45:55,021 - INFO - 127.0.0.1 - - [25/Jul/2024 15:45:55] "[35m[1mGET /get_user_details/final HTTP/1.1[0m" 500 -
+2024-07-25 15:46:00,699 - INFO - Usuários carregados
+2024-07-25 15:46:00,700 - INFO - 127.0.0.1 - - [25/Jul/2024 15:46:00] "GET /get_users HTTP/1.1" 200 -
+2024-07-25 15:46:02,219 - ERROR - Erro ao carregar detalhes do usuário: 'utf-8' codec can't decode byte 0xe7 in position 6: invalid continuation byte
+2024-07-25 15:46:02,219 - INFO - 127.0.0.1 - - [25/Jul/2024 15:46:02] "[35m[1mGET /get_user_details/final HTTP/1.1[0m" 500 -
+2024-07-25 15:46:11,914 - INFO - Conectado ao Ganache
+2024-07-25 15:46:11,914 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-25 15:46:11,914 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-25 15:46:14,777 - INFO - Usuários carregados
+2024-07-25 15:46:14,777 - INFO - 127.0.0.1 - - [25/Jul/2024 15:46:14] "GET /get_users HTTP/1.1" 200 -
+2024-07-25 15:46:16,215 - ERROR - Erro ao converter quantidade: 0xd234eed1b06a2d92fef01dc05e1ed61835da839dab530d60f816624a5bb07999
+2024-07-25 15:46:16,215 - ERROR - Erro ao converter quantidade: 0x439660a6882d6a9aa6fefcdce729af76ba9a6807956de86315d7c11292dc783e
+2024-07-25 15:46:16,215 - INFO - Detalhes do usuário carregados: {'username': 'final', 'address': '0x9F63708d8FbB2cbFaa9d8F3d39Dd1f67832bb11E', 'transactions': ['Transação: 0xd234eed1b06a2d92fef01dc05e1ed61835da839dab530d60f816624a5bb07999: Quantity: 250 kWh, Price: 0.1 Ether, Description: teste', 'Transação: 0x439660a6882d6a9aa6fefcdce729af76ba9a6807956de86315d7c11292dc783e: Quantity: 200 kWh, Price: 0.1 Ether, Description: teste'], 'total_kwh': 0.0}
+2024-07-25 15:46:16,215 - INFO - 127.0.0.1 - - [25/Jul/2024 15:46:16] "GET /get_user_details/final HTTP/1.1" 200 -
+2024-07-25 15:47:29,361 - INFO - Transação feita: {'address': '0x9F63708d8FbB2cbFaa9d8F3d39Dd1f67832bb11E', 'quantity': '200', 'description': 'teste'}, Hash: 0x798136901a0b1d5cfe2b3cec2babea107ce9233db4d7cc371940ec2f4a786dca
+2024-07-25 15:47:29,361 - INFO - 127.0.0.1 - - [25/Jul/2024 15:47:29] "POST /transact HTTP/1.1" 200 -
+2024-07-25 15:47:31,322 - INFO - Transação feita: {'address': '0x9F63708d8FbB2cbFaa9d8F3d39Dd1f67832bb11E', 'quantity': '200', 'description': 'teste'}, Hash: 0x14a31b45cd8344d13624d00a143721e515a47d0e6dfb7ff0989942118ac68afb
+2024-07-25 15:47:31,322 - INFO - 127.0.0.1 - - [25/Jul/2024 15:47:31] "POST /transact HTTP/1.1" 200 -
+2024-07-25 15:48:02,354 - INFO - Usuários carregados
+2024-07-25 15:48:02,354 - INFO - 127.0.0.1 - - [25/Jul/2024 15:48:02] "GET /get_users HTTP/1.1" 200 -
+2024-07-25 15:48:03,292 - ERROR - Erro ao converter quantidade: 0xd234eed1b06a2d92fef01dc05e1ed61835da839dab530d60f816624a5bb07999
+2024-07-25 15:48:03,292 - ERROR - Erro ao converter quantidade: 0x439660a6882d6a9aa6fefcdce729af76ba9a6807956de86315d7c11292dc783e
+2024-07-25 15:48:03,292 - ERROR - Erro ao converter quantidade: 0x798136901a0b1d5cfe2b3cec2babea107ce9233db4d7cc371940ec2f4a786dca
+2024-07-25 15:48:03,292 - ERROR - Erro ao converter quantidade: 0x14a31b45cd8344d13624d00a143721e515a47d0e6dfb7ff0989942118ac68afb
+2024-07-25 15:48:03,292 - INFO - Detalhes do usuário carregados: {'username': 'final', 'address': '0x9F63708d8FbB2cbFaa9d8F3d39Dd1f67832bb11E', 'transactions': ['Transação: 0xd234eed1b06a2d92fef01dc05e1ed61835da839dab530d60f816624a5bb07999: Quantity: 250 kWh, Price: 0.1 Ether, Description: teste', 'Transação: 0x439660a6882d6a9aa6fefcdce729af76ba9a6807956de86315d7c11292dc783e: Quantity: 200 kWh, Price: 0.1 Ether, Description: teste', 'Transação: 0x798136901a0b1d5cfe2b3cec2babea107ce9233db4d7cc371940ec2f4a786dca: Quantity: 200 kWh, Price: 0.1 Ether, Description: teste', 'Transação: 0x14a31b45cd8344d13624d00a143721e515a47d0e6dfb7ff0989942118ac68afb: Quantity: 200 kWh, Price: 0.1 Ether, Description: teste'], 'total_kwh': 0.0}
+2024-07-25 15:48:03,292 - INFO - 127.0.0.1 - - [25/Jul/2024 15:48:03] "GET /get_user_details/final HTTP/1.1" 200 -

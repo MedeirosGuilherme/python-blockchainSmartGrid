@@ -1,0 +1,17 @@
+{
+    "gui": {
+        "password": "teste",
+        "address": "0x872618CBa408e3cE6b19Bb45996Fc6B4b148B077",
+        "private_key": "0x0c7a5ad034423a3c049fcef765bddb92e2bc0306919543981343730e8bb5e38d"
+    },
+    "teste1": {
+        "password": "teste",
+        "address": "0x589a13e2E6bf4152527AC6041E462AD0111d92c0",
+        "private_key": "0xa0b9b773a43630c59d50406c5128a9aa0261056cfd92b33b01bec098aee1765a"
+    },
+    "final": {
+        "password": "final",
+        "address": "0x9F63708d8FbB2cbFaa9d8F3d39Dd1f67832bb11E",
+        "private_key": "0xcb2dbd3969844db3791c14440a3d7c9bf4033d1092345cc337f7e16c152034c7"
+    }
+}
